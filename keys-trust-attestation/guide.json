@@ -1,0 +1,18 @@
+{
+  "title": "Keys, Trust & Attestation",
+  "slug": "keys-trust-attestation",
+  "description": "How systems establish and prove trust with cryptography — signatures, PKI, hardware roots of trust, key ceremonies, attestation, and supply-chain integrity. A beginner-friendly field guide.",
+  "level": "intro",
+  "order": 1,
+  "note": "Throughout this guide, NVIDIA GPUs are the running hardware example. The concepts are not NVIDIA-specific — their platforms simply span the whole stack (secure boot, measured boot, per-device identity, remote attestation) and carry demanding hardware- and software-attestation requirements, which makes them a clean end-to-end illustration. The same patterns apply to TPM-based PCs, Apple's Secure Enclave, Google Titan, AWS Nitro, and Intel SGX/TDX — we just pick one vendor for consistency rather than switching examples on every page.",
+  "sectionTitles": {
+    "01-foundations": "Foundations",
+    "02-pki-and-trust": "PKI and Trust",
+    "03-hardware-security": "Hardware Security",
+    "04-key-ceremonies": "Key Ceremonies",
+    "05-attestation": "Attestation",
+    "06-token-security": "Token Security",
+    "07-supply-chain": "Supply Chain",
+    "08-end-to-end": "End-to-End"
+  }
+}
